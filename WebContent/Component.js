@@ -26,9 +26,9 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 
 		// Using OData model to connect against a real service
 		//eclipse link
-//		var url = "proxy/http/ws-sapsvr01.virtusa.com:8010/sap/opu/odata/sap/ZTRAINKT/";
+		var url = "proxy/http/ws-sapsvr01.virtusa.com:8010/sap/opu/odata/sap/ZTRAINKT/";
 		//launchpad link
-		var url = "/sap/opu/odata/sap/ZTRAINKT/";
+//		var url = "/sap/opu/odata/sap/ZTRAINKT/";
 //		var url = "http://ws-sapsvr01.virtusa.com:8010/sap/opu/odata/sap/ZTVSHOW_SRV/";
 		var oModel = new sap.ui.model.odata.ODataModel(url, true);
 		oView.setModel(oModel);
