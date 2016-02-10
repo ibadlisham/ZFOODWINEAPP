@@ -1,7 +1,7 @@
 sap.ui.controller("sap.ui.demo.myFiori.view.Detail", {
 	
-	handleNavButtonPress : function (evt) {
-		this.nav.back("Master");
+	handleNavBack : function (evt) { 
+		this.nav.back("Empty");
 	},
 	
 	handleLineItemPress : function (evt) {
@@ -9,7 +9,4 @@ sap.ui.controller("sap.ui.demo.myFiori.view.Detail", {
 		this.nav.to("LineItem", context);
 	},
 	
-	handleNavBack : function (evt) { 
-		this.nav.back("Master");
-	}
 });
